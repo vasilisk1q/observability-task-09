@@ -1,0 +1,13 @@
+/usr/sbin/mysqld, Version: 8.0.21 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-07-29T10:24:53.315042Z	    8 Connect	root@172.27.0.1 on  using SSL/TLS
+2024-07-29T10:24:53.317432Z	    8 Query	select @@version_comment limit 1
+2024-07-29T10:24:56.989585Z	    8 Query	show databases
+2024-07-29T10:24:59.281208Z	    8 Quit	
+/usr/sbin/mysqld, Version: 8.0.21 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.21 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument

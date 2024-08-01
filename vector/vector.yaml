@@ -1,0 +1,29 @@
+data_dir: "/var/lib/vector"
+
+# Ingest data by tailing one or more files
+# Docs: https://vector.dev/docs/reference/sources/file
+sources:
+  nginx_logs:
+    type: "file"
+    include: ["/opt/docker-nginx-php-mysql/var/log/nginx/access.log"]
+    ignore_older_secs: 86400 # 1 day
+
+      #transforms:
+      #nginx_parser:
+      #type: "filter"
+      #inputs: ["nginx_logs"]
+      #condition: '.request_scheme == "http"'
+
+sinks:
+  elasticsearch:
+    inputs: ["nginx_logs"]
+    type: "elasticsearch"
+    endpoint: "https://10.10.239.153:9200"
+    doc_type: "_doc"
+    healthcheck: true
+    tls:
+      verify_certificate: false
+    auth:
+      strategy: "basic"
+      user: "elastic"
+      password: "-IvQfrmZcvpVxXb-EhxS"

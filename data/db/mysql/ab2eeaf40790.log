@@ -1,0 +1,7 @@
+/usr/sbin/mysqld, Version: 8.0.21 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+2024-07-29T08:39:08.794143Z	    8 Connect	root@172.25.0.3 on  using SSL/TLS
+2024-07-29T08:39:08.795548Z	    8 Query	select @@version_comment limit 1
+2024-07-29T08:39:25.764581Z	    8 Query	show variables like '%slow%'
+2024-07-29T08:39:31.925778Z	    8 Quit	
