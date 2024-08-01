@@ -543,3 +543,111 @@ Time                 Id Command    Argument
   ORDER BY avg_timer_wait DESC
   LIMIT 10
 2024-08-01T12:38:20.573999Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:38:29.040536Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:38:30.561386Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:38:30.612968Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:38:39.037168Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:38:40.561767Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:38:40.564202Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:38:49.036731Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:38:50.561436Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:38:50.642954Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:38:59.037393Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:39:00.562164Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:39:00.577896Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:39:09.036995Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:39:10.562168Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:39:10.582463Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:39:19.038775Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:39:20.562028Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:39:20.615665Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:39:29.037234Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:39:30.561634Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:39:30.566813Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:39:39.035920Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:39:40.561930Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:39:40.565863Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:39:49.034730Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:39:50.562058Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:39:50.575368Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:39:59.036370Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:40:00.561842Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:40:00.589171Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:40:09.042977Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:40:10.562060Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:40:10.578092Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:40:19.037836Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:40:20.562172Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:40:20.564958Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:40:29.034853Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:40:30.562045Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:40:30.565800Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:40:39.036717Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:40:40.561504Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:40:40.566426Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:40:49.034992Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:40:50.561632Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:40:50.581650Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:40:59.037793Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:41:00.561608Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:41:00.595236Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:41:09.036410Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:41:10.561928Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:41:10.564141Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
+2024-08-01T12:41:19.036484Z	    8 Query	SHOW /*!50002 GLOBAL */ STATUS
+2024-08-01T12:41:20.561306Z	   10 Query	SELECT digest_text, count_star, avg_timer_wait, max_timer_wait, last_seen, quantile_95
+  FROM performance_schema.events_statements_summary_by_digest
+  ORDER BY avg_timer_wait DESC
+  LIMIT 10
+2024-08-01T12:41:20.564561Z	   10 Query	SELECT object_schema, object_name, index_name, count_fetch FROM performance_schema.table_io_waits_summary_by_index_usage WHERE count_fetch > 0
